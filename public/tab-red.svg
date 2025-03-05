@@ -1,0 +1,22 @@
+<svg width="256" height="42" viewBox="0 0 256 42" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="2qjc5iozvb">
+            <stop stop-color="#333" offset="0%"/>
+            <stop offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="oer3ahdu4c">
+            <stop offset="0%"/>
+            <stop stop-color="#777" offset="49.923%"/>
+            <stop offset="100%"/>
+        </linearGradient>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="142.865%" gradientTransform="matrix(0 -1 .36048 0 .14 1.5)" id="a9lwg7mdda">
+            <stop stop-color="#2A0000" offset="0%"/>
+            <stop offset="100%"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M42 0h172c23.196 0 42 18.804 42 42H0C0 18.804 18.804 0 42 0z" fill="url(#a9lwg7mdda)"/>
+        <path d="M214 .5c11.46 0 21.835 4.645 29.345 12.155 7.4 7.4 12.02 17.584 12.152 28.845H.503c.133-11.261 4.751-21.444 12.152-28.845C20.165 5.145 30.54.5 42 .5h172z" stroke="url(#2qjc5iozvb)"/>
+        <rect fill="url(#oer3ahdu4c)" y="41" width="256" height="1" rx=".5"/>
+    </g>
+</svg>

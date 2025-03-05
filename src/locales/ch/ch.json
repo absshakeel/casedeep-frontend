@@ -1,0 +1,25 @@
+{
+    "translation": {
+      "a040b3f1-9d73-4541-a360-1f60f4355775": "运作方式",
+      "8d17067f-a79a-4576-bfc6-9411f6117c9d": "特点",
+      "205ddd48-9766-4b00-acdb-00e712dd5678": "定价",
+      "46374906-c73f-423c-a87d-ee1853a0c3be": "认证",
+      "welcome": {
+        "title": "WELCOME TO THE Ch HUB",
+        "subtitle": "CASEDEEP.COM - THE ULTIMATE PROVIDER SOLUTION",
+        "description1": "CASEDEEP is a business promotion platform built by freelancers worldwide, providing a reliable way for freelancers to quickly acquire clients. With its 'pay after success' model, CASEDEEP has become the best choice for top freelancers to gain clients with zero risk. our core mission is to streamline project communication, enhance transaction efficiency, and help both parties reach agreements quickly.",
+        "description2": "CASEDEEP offers cross-platform project transaction tools, designed specifically for high-quality project needs, covering both web and mobile applications. To better assist providers in expanding their client base and improving project efficiency, transactions between providers and their existing clients are completely free. Payments are made directly to the provider’s account, with no transaction fees, allowing for seamless transactions between providers and their clients."
+      },
+      "callToAction": {
+        "title": "Enhance Your Business Capabilities with CASEDEEP.COM",
+        "buttonText": "Sign Up Free"
+      },
+      "invite": {
+        "title": "Invite Your Provider to CODE",
+        "highlight": "DEAL and Earn $100",
+        "description1": "Help your provider grow their business! Invite them to join CASEDEEP as a paid user, and both of you will earn great rewards!",
+        "description2": "No transaction fees for projects with existing clients you bring to the platform, except for new clients acquired through the platform. CASEDEEP helps freelancers build their offline reputation and is the best platform for expanding their client base.",
+        "buttonText": "Invite Now"
+      }
+    }
+  }

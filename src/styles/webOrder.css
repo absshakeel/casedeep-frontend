@@ -1,0 +1,27 @@
+.steeperShadow {
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.order-button-hover {
+  transition: background-image 0.3s ease;
+}
+
+.order-button-hover:hover {
+  background-image: url("/public/webOrderBtnHover.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.orderSelectedBtn {
+  background-image: url("/public/orderSelectedBtn.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.userBBtn:disabled {
+  background-image: linear-gradient(to bottom, #252525, #252525);
+}
+
+.userBBtn {
+  background-image: linear-gradient(to bottom, #00e6e6, #00b8b8);
+}

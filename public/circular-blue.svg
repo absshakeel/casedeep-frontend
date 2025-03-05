@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="330px" viewBox="0 0 220 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FF23C1A1-1E9A-46FE-9E5A-2A47EA49E571</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0576BA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00FFE2" offset="0%"></stop>
+            <stop stop-color="#0576BA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Case" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web_Home_Index" transform="translate(-226, -4534)">
+            <g id="circular_blue" transform="translate(226, 4534)">
+                <path d="M220,220 C220,280.751322 170.751322,330 110,330 C49.8561907,330 0.986123815,281.731371 0.0147368572,221.819051 L0,220 L220,220 Z" id="circular_blue_shadows" fill="url(#linearGradient-1)" opacity="0.502487909" transform="translate(110, 275) scale(1, -1) translate(-110, -275)"></path>
+                <circle fill="url(#linearGradient-2)" cx="110" cy="110" r="110"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

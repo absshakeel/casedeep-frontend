@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "pingfangtc","pingfang", "arial-regular", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+::-webkit-scrollbar {
+  appearance: none !important;
+  width: 0 !important;
+}
+
+button {
+  transition: 0.2s linear all;
+}
+
+button:focus,
+.button:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+/* btn styles ----------------> */
+
+.button-hover {
+  transition: background-image 0.3s ease;
+}
+
+.button-hover:hover {
+  background-image: url("/public/tab-red.svg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.selectedBtn {
+  background-image: url("/public/tab-blue.svg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* swiper styles  */
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+}
+
+.top_bg {
+  width: 1440px;
+  height: 217px;
+  margin: 0 0 20px;
+  padding: 20px 20px 0 32px;
+  background-image: radial-gradient(
+    circle at 50% 100%,
+    #00252a,
+    #000e10 22%,
+    #000 29%
+  );
+}
+
+#how-it-works {
+  scroll-margin-top: 250px;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.7s ease-out forwards;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.characters {
+  list-style: none;
+  padding-left: 0;
+}
+
+.characters li {
+  display: flex;
+  align-items: center;
+  border: solid 2px #d0d0d0;
+  border-radius: 0.2em;
+  padding: 0.5em 0.8em 0.5em 0.5em;
+  margin-bottom: 1em;
+}
+
+.characters p {
+  max-width: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+.characters-thumb {
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  background-color: #e8e8e8;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.characters-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hideScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.modalShadow {
+  box-shadow: 0 0 100px 0 #000;
+}
+

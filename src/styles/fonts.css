@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "arial-regular";
+  src: url("../assets/fonts/ARIAL.TTF");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arial-bold";
+  src: url("../assets/fonts/ARIALBD.TTF");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arial-black";
+  src: url("../assets/fonts/ArialCEMTBlack.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arial-thin";
+  src: url("../assets/fonts/ARIALLGT.TTF");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "arial-medium";
+  src: url("../assets/fonts/ArialMdm.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pingfangtc';
+  src: url("../assets/fonts/pingfangtc.ttf");
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+@font-face {
+  font-family: "Zen Kurenaido";
+  src: url("../assets/fonts/ZenKurenaido-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "pingfang";
+  src: url("../assets/fonts/PingFang.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pingfang-medium";
+  src: url("../assets/fonts/PingFangTC-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "pingfang-semibold";
+  src: url("../assets/fonts/PingFangTC-Semibold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="220px" viewBox="0 0 460 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F3F8F8F1-81A9-44EA-804B-0161FF3038F7</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#906300" offset="0%"></stop>
+            <stop stop-color="#252525" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFC74F" offset="0%"></stop>
+            <stop stop-color="#FF9527" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFC74F" offset="0%"></stop>
+            <stop stop-color="#FF9527" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Case" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web_Home_Index" transform="translate(-208, -3297)">
+            <g id="element_orange" transform="translate(208, 3297)">
+                <path d="M110,0 L460,0 L460,0 L460,110 C460,170.751322 410.751322,220 350,220 L100,220 C44.771525,220 3.38176876e-15,175.228475 0,120 L0,110 C-7.43989126e-15,49.2486775 49.2486775,7.43989126e-15 110,0 Z" id="element_panel_orange" fill="url(#linearGradient-1)" opacity="0.34858631"></path>
+                <g transform="translate(30, 35)" id="Triangle">
+                    <path d="M185.919297,17.9584117 L245.219045,105.197962 C254.741803,119.207483 249.595323,137.378622 233.72406,145.784335 C228.515568,148.542847 222.555674,150 216.481581,150 L83.5133538,150 C65.0044396,150 50,136.755621 50,120.417852 C50,115.056266 51.6507952,109.795483 54.77589,105.197962 L114.075638,17.9584117 C125.979085,0.446509498 151.711487,-5.23197115 171.550565,5.27517015 C177.446805,8.39792692 182.381554,12.7538171 185.919297,17.9584117 Z" fill="url(#linearGradient-2)" opacity="0.902925037"></path>
+                    <path d="M92.4251222,60.2117199 L132.748951,119.534614 C139.224426,129.061089 135.724819,141.417463 124.932361,147.133348 C121.390586,149.009136 117.337858,150 113.207475,150 L22.7890806,150 C10.2030189,150 0,140.993822 0,129.884139 C0,126.238261 1.12254073,122.660929 3.2476052,119.534614 L43.5714337,60.2117199 C51.6657779,48.3036265 69.163811,44.4422596 82.6543845,51.5871157 C86.6638271,53.7105903 90.0194567,56.6725956 92.4251222,60.2117199 Z" fill="url(#linearGradient-3)" opacity="0.25"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
