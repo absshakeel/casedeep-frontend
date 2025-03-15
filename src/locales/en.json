@@ -1,0 +1,384 @@
+{
+  "translation": {
+    "a040b3f1-9d73-4541-a360-1f60f4355775": "How it works",
+    "8d17067f-a79a-4576-bfc6-9411f6117c9d": "Features",
+    "205ddd48-9766-4b00-acdb-00e712dd5678": "Pricing",
+    "46374906-c73f-423c-a87d-ee1853a0c3be": "Certification",
+    "welcome": {
+      "title": "WELCOME TO THE PROVIDER HUB",
+      "subtitle": "CASEDEEP.COM - THE ULTIMATE PROVIDER SOLUTION",
+      "description1": "CASEDEEP is a business promotion platform built by freelancers worldwide, providing a reliable way for freelancers to quickly acquire clients. With its 'pay after success' model, CASEDEEP has become the best choice for top freelancers to gain clients with zero risk. our core mission is to streamline project communication, enhance transaction efficiency, and help both parties reach agreements quickly.",
+      "description2": "CASEDEEP offers cross-platform project transaction tools, designed specifically for high-quality project needs, covering both web and mobile applications. To better assist providers in expanding their client base and improving project efficiency, transactions between providers and their existing clients are completely free. Payments are made directly to the provider’s account, with no transaction fees, allowing for seamless transactions between providers and their clients."
+    },
+    "callToAction": {
+      "title1": "Enhance Your Business Capabilities with",
+      "title2": "CASEDEEP.COM",
+      "buttonText": "Sign Up Free"
+    },
+    "invite": {
+      "title1": "Invite Your Provider to",
+      "title2": "CASE",
+      "title3": "DEAL and Earn $100",
+      "description1": "Help your provider grow their business! Invite them to join CASEDEEP as a paid user, and both of you will earn great rewards!",
+      "description2": "No transaction fees for projects with existing clients you bring to the platform, except for new clients acquired through the platform. CASEDEEP helps freelancers build their offline reputation and is the best platform for expanding their client base.",
+      "buttonText": "Invite Now"
+    },
+  "feature": {
+      "title": "Features",
+      "node1": {
+        "title": "Standard Provider",
+        "percentage": "0%",
+        "description": "Completely Free"
+      },
+      "node2": {
+        "title": "Professional Provider",
+        "line1": "Professional",
+        "line2": "Validation"
+      },
+      "node3": {
+        "title": "Private Clients",
+        "percentage": "0%",
+        "description": "Completely Free"
+      },
+      "node4": {
+        "title": "Platform Clients",
+        "startingAt": "Starting at 16.5%",
+        "min": "Min",
+        "percentage": "6.5%",
+        "forRepeats": "for repeats"
+      },
+      "card1": {
+        "title": "Customizable Requirement Templates",
+        "text": "Create and manage custom order templates to simplify the project requirement gathering process. Providers can easily share these templates to improve communication and minimize errors and confusion."
+      },
+      "card2": {
+        "title": "Credit Rating System",
+        "text": "Utilize CASE's credit rating tools to convert each transaction into a reputation asset, helping you attract more business opportunities and clients."
+      },
+      "card3": {
+        "title": "Flexible Fee Structure",
+        "text": "Platform fees start at 36.5% and gradually decrease to as low as 6.5% based on transaction history. This flexible fee structure helps providers quickly build their client base and stay competitive."
+      },
+      "card4": {
+        "title": "CASE Certification",
+        "text": "Boost your professional profile with CASE certification. The certification process includes a thorough evaluation of skills, helping providers stand out in the market."
+      },
+      "card5": {
+        "title": "Premium Upgrades",
+        "text": "As a paid user, providers gain access to professional contract generation tools, unlimited order templates, and more efficient communication systems. Premium users also benefit from enhanced voice call security and the ability to set commission rates based on business fluctuations, accelerating order acquisition and expanding client base."
+      }
+    },
+    "attributes": {
+      "description": "The additional cost of taking on projects is communication. Project communication can consume a third or even more than half of the total time. Providers often have to repeatedly explain their expertise to clients with varying levels of understanding, introduce themselves to new clients, and inquire about needs that the clients themselves may not fully understand. Even when requirements are clear, drafting effective contracts can still be a challenge. There is also a lack of trust and balance between providers and clients.",
+      "usingImageAlt": "Using illustration"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "arrowAlt": "Arrow pointing to title",
+      "section1": {
+        "title": "Streamlined Communication",
+        "description": "Simplify the communication process with clients using standardized requirement templates. Providers can create custom order templates based on their business needs and share them with clients. Clients can easily place orders using these templates, enhancing communication efficiency and reducing misunderstandings and unnecessary discussions.",
+        "imageAlt": "Patient attorney illustration"
+      },
+      "section2": {
+        "title": "Credit System",
+        "description": "Build your professional reputation with our reliable credit rating system. Every successful transaction, whether from online or offline clients, adds to your reputation asset and converts into new business opportunities.",
+        "imageAlt": "Engineer illustration"
+      },
+      "section3": {
+        "title": "Flexible Bidding",
+        "description": "Engage in targeted bidding based on your business expectations and regional specifics. Platform fees start at 16.5% and decrease to as low as 6.5% based on your transaction history with the same clients. This flexible policy helps you quickly secure orders and build a stable client base.",
+        "imageAlt": "Shooting illustration"
+      },
+      "section4": {
+        "title": "CASE Certification",
+        "description": "Enhance your professional image with CASE certification. We rigorously evaluate each provider's skills to ensure they meet high industry standards. Only certified providers are eligible to participate in platform bidding and rankings, ensuring top-quality service delivery.",
+        "imageAlt": "Data analyst illustration"
+      }
+    },
+    "pricing": {
+      "title": "Pricing",
+      "arrowAlt": "Arrow pointing to title",
+      "signUpButton": "Sign Up Free",
+      "annually": "Annually",
+      "plan1": {
+        "title": "Free",
+        "price": "$0/mo",
+        "attribute1": "Offline business deal support",
+        "attribute2": "Enable fast ordering via QR code or link",
+        "attribute3": "4 order templates",
+        "attribute4": "4 showcase projects"
+      },
+      "plan2": {
+        "title": "Personal",
+        "price": "$10/mo",
+        "attribute1": {
+          "text": "Offline business deal support",
+          "description": "Waiving service fees for existing customers."
+        },
+        "attribute2": {
+          "text": "Enable fast ordering via QR code or link",
+          "description": "Rapid deal facilitation"
+        },
+        "attribute3": {
+          "text": "Unlimited order templates",
+          "description": "More order templates to enrich business"
+        },
+        "attribute4": {
+          "text": "Unlimited showcase projects",
+          "description": "More showcase projects to enhance credibility"
+        },
+        "attribute5": {
+          "text": "Professional contract generation",
+          "description": "Enhance legal validity for secure deals"
+        },
+        "attribute6": {
+          "text": "Voice call support in livechat",
+          "description": "Significantly enhances deal opportunities"
+        },
+        "attribute7": {
+          "text": "Autoplay profile video support",
+          "description": "Strengthen relationships and close deals"
+        }
+      },
+      "plan3": {
+        "title": "Business",
+        "price": "$28.5/mo",
+        "attribute1": {
+          "text": "Offline business deal support",
+          "description": "Waiving service fees for existing customers."
+        },
+        "attribute2": {
+          "text": "Enable fast ordering via QR code or link",
+          "description": "Rapid deal facilitation"
+        },
+        "attribute3": {
+          "text": "Unlimited order templates",
+          "description": "More order templates to enrich business"
+        },
+        "attribute4": {
+          "text": "Unlimited showcase projects",
+          "description": "More showcase projects to enhance credibility"
+        },
+        "attribute5": {
+          "text": "Professional contract generation",
+          "description": "Enhance legal validity for secure deals"
+        },
+        "attribute6": {
+          "text": "Voice call support in livechat",
+          "description": "Significantly enhances deal opportunities"
+        },
+        "attribute7": {
+          "text": "Autoplay profile video support",
+          "description": "Strengthen relationships and close deals"
+        }
+      }
+    },
+    "certification": {
+      "arrowAlt": "Arrow pointing to title",
+      "title": "Certification",
+      "logoAlt": "Certificate logo",
+      "logoDescription": "Once CASE certification is obtained, the CASE official authorized logo will appear on your page, and you can also print the CASE logo on business cards or display it on your website.",
+      "welcome": "WELCOME TO APPLY",
+      "certification": "CASE CERTIFICATION",
+      "requirement1": "Individual users must be 27 years old or above** Company users must have been established for 2 years or more**",
+      "requirement2": "Proof of 4+ years of industry work experience (Invitees are exempt)",
+      "requirement3": "Proof of 2+ successful deals (Invitees are exempt)",
+      "requirement4": "Pass an industry work professional skills interview (Invitees are exempt)",
+      "requirement5": "Pay a deposit of $2,500-$10,000 depending on the industry (Invitees are exempt)",
+      "requirement6": "Or pay a one-time certification fee: $250 for individual / $1,000 for company (Invitees are exempt)",
+      "eligible": "Congratulations! you are eligible to apply",
+      "applyButton": "Apply now",
+      "photoAlt": "Certification photo",
+      "reviewTitle": "We carefully review every certification application",
+      "reviewSubtitle": "and intelligently match clients with the best providers",
+      "approvalTime": "Approval typically takes 10-25 business days",
+      "additionalTime": "Does not include time for mailing additional materials if requested"
+    },
+    "growWithUs": {
+      "title1": "Grow with",
+      "title2": "us today",
+      "description1": "Currently, we only support certification services",
+      "description2": "for the following industries.",
+      "membersAlt": "Certification Members",
+      "industry": "Supported Industry"
+    },
+    "footer": {
+      "links": {
+        "about": "About",
+        "contact": "Contact",
+        "disclaimer": "Disclaimer",
+        "terms": "Terms",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "copyright": "© 2025 CASEDEEP.com All Rights Reserved."
+    },
+    "feedback": {
+      "logoAlt": "CaseDeep Logo",
+      "type": {
+        "improvement": "Improvement Suggestion",
+        "bug": "Bug Report"
+      },
+      "placeholder": {
+        "improvement": "Describe your improvement suggestion...",
+        "bug": "Describe the bug you encountered..."
+      },
+      "attachButton": "Attach",
+      "submitButton": "Submit",
+      "successImageAlt": "Success Checkmark",
+      "successTitle": "Thank you for your feedback!",
+      "successMessage": "We will carefully consider and implement your suggestions, we are committed to improving and look forward to hearing more from you",
+      "okButton": "OK"
+    },
+ "honors": {
+      "profileAlt": "Profile picture",
+      "companyName": "America Wisdom World Corporation Corporation",
+      "jobTitle": "Architectural Designer",
+      "flagAlt": "Country flag",
+      "location": "Test Testtest..",
+      "medalsTab": "Medals ({{count}})",
+      "trophiesTab": "Trophy ({{count}})",
+     "awardsSummary": "You have {{medals}}  medals   and {{trophies}}  trophies",
+      "medalAlt": "Medal icon",
+      "trophyAlt": "Trophy icon",
+      "medals": {
+        "projectName": "Project Name",
+        "organization": "America Wisdom World Corporation Corporation"
+      },
+      "trophies": {
+        "projectName": "Project Name",
+        "organization": "America Wisdom World Corporation Corporation"
+      }
+    },
+ "referralSystem": {
+      "groupImageAlt": "Group of people",
+      "heroTitle1": "Invite friends and earn",
+      "heroTitle2": "$25/$100 in referral rewards",
+      "inviteIconAlt": "Invite icon",
+      "shareLinkText": "Share your invite link",
+      "theyWillReceive": "They will receive",
+      "youWillEarn": "You will earn",
+      "personalUsers": "Personal Users",
+      "businessUsers": "Business Users",
+      "personalValue": "$119",
+      "businessValue": "$342",
+      "valueVoucher": "value 1-year free usage voucher",
+      "personalReward": "$25",
+      "businessReward": "$100",
+      "perPerson": "per person",
+      "perCompany": "per company",
+      "friendsInvited": "{{count}} Friends Invited",
+      "upgradedUsers": "Upgraded Users: {{personal}} Personal, {{business}} Business",
+      "searchPlaceholder": "Search Username or Display Name"
+    },
+    "manageAccount": {
+      "logoAlt": "CASEDEEP Logo",
+      "title": "Manage Account",
+      "emailPlaceholder": "Enter your email",
+      "passwordPlaceholder": "••••••••",
+      "usernamePlaceholder": "Enter username",
+      "changeButton": "Change",
+      "confirmButton": "Confirm"
+    },
+  "paymentAccount": {
+    "logoAlt": "CASEDEEP Logo",
+    "paymentMethods": "Payment Methods",
+    "creditDebitCards": "Credit & Debit Cards",
+    "receivingAccount": "Receiving Account",
+    "beneficiaryName": "Beneficiary Name",
+    "bankName": "Bank Name",
+    "bankAddress": "Bank Address",
+    "accountNumber": "Account Number",
+    "routingNumber": "Routing Number",
+    "branchName": "Branch Name - Optional",
+    "accountType": "Account Type - Optional",
+    "cardNumber": "Card Number",
+    "nameOnCard": "Name on Card",
+    "expiryDate": "MM / YY",
+    "cvc": "CVC",
+    "billingInfo": "Billing Information",
+    "nameCompany": "Name/Company Name",
+    "address": "Address",
+    "save": "Save"
+  },
+"proposal": {
+    "profileAlt": "Profile picture",
+    "readMore": "Read More...",
+    "attachReferences": "Attach References",
+    "area": "Area",
+    "decoratingStyle": "Decorating Style",
+    "constructionProject": "Construction Project",
+    "projectScale": "Project Scale",
+    "paymentMethod": "Payment Method",
+    "deliveryDate": "Delivery Date",
+    "sendQuote": "Send Quote",
+    "acceptOrder": "Accept Order"
+  },
+  "qrcode": {
+    "logoAlt": "CASEDEEP Logo",
+    "white": "White",
+    "black": "Black",
+    "download": "Download",
+    "share": "Share to...",
+    "shareTo": "Share to",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "line": "Line"
+    }
+  },
+  "quote": {
+    "profileAlt": "Profile picture",
+    "title": "Interior Design",
+    "date": "Jan 12, 2025",
+    "item": "Item",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "addArticle": "Add Article",
+    "itemName": "Item Name",
+    "add": "Add",
+    "subtotal": "Subtotal",
+    "currency": "Currency",
+    "attachment": "Attachment",
+    "uploadPDF": "User A can upload PDF document",
+    "chooseFile": "Choose File",
+    "sendQuote": "Send Quote",
+    "placeOrder": "Place Order"
+  },
+  "rating": {
+    "profileAlt": "Profile picture",
+    "companyName": "America Wisdom World Corporation Corporation",
+    "jobTitle": "Architectural Designer",
+    "flagAlt": "Country flag",
+    "location": "New York",
+    "systemScore": "System Score",
+    "userRating": "User Rating",
+    "contributionScore": "Contribution Score"
+  },
+  "signature": {
+    "logoAlt": "CASEDEEP Logo",
+    "instruction": "You will sign the contract with this signature",
+    "uploadButton": "Signature (PNG) from Gallery",
+    "cropInstruction": "Please ensure your signature is fully contained within the extraction area",
+    "extractButton": "Extract Signature"
+  },
+  "signup": {
+    "logoAlt": "CASEDEEP Logo",
+    "title": "Sign Up",
+    "usernamePlaceholder": "Please enter your Username",
+    "usernameLabel": "Username",
+    "emailPlaceholder": "Please enter your Email",
+    "emailLabel": "Email",
+    "passwordPlaceholder": "Please enter your Password",
+    "passwordLabel": "Password",
+    "signupButton": "Sign Up",
+    "termsText": "By registering, you agree to the Disclaimer, Terms of Service, Privacy Policy, and the use of cookies"
+  }
+
+
+}
+}

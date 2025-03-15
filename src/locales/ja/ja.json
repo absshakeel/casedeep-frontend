@@ -1,8 +1,384 @@
 {
   "translation": {
-    "a040b3f1-9d73-4541-a360-1f60f4355775": "仕組み",
+    "a040b3f1-9d73-4541-a360-1f60f4355775": "使い方",
     "8d17067f-a79a-4576-bfc6-9411f6117c9d": "特徴",
-    "205ddd48-9766-4b00-acdb-00e712dd5678": "価格設定",
-    "46374906-c73f-423c-a87d-ee1853a0c3be": "認証"
+    "205ddd48-9766-4b00-acdb-00e712dd5678": "料金",
+    "46374906-c73f-423c-a87d-ee1853a0c3be": "認証",
+    "welcome": {
+      "title": "ケースディープへようこそ",
+      "subtitle": "究極の受注者向けソリューション",
+      "description1": "ケースディープは、世界中のフリーランサーによって構築されたビジネスプロモーションプラットフォームであり、フリーランサーが迅速にクライアントを獲得できる信頼できる手段です。『成功後に支払う』というモデルを採用し、優秀なフリーランサーがリスクなしでクライアントを獲得するための最適な選択肢となっています。私たちの主なミッションは、プロジェクトコミュニケーションを簡素化し、取引の効率を高め、双方が迅速に合意に達するのを支援することです。",
+      "description2": "ケースディープは、ウェブとモバイルアプリケーションの両方に対応したクロスプラットフォームのプロジェクト取引ツールを提供しており、高品質なプロジェクトのニーズに特化しています。サービス提供者と既存のクライアントとの取引は完全に無料で、プラットフォーム手数料は一切ありません。クライアントからサービス提供者のアカウントへの直接支払いを可能にし、スムーズな取引を実現します。"
+    },
+    "callToAction": {
+      "title1": "ケースディープでビジネス能力を強化させましょう",
+      "title2": "CASEDEEP.COM",
+      "buttonText": "無料で登録"
+    },
+    "invite": {
+      "title1": "プロバイダーを",
+      "title2": "ケース",
+      "title3": "ディープに招待して、¥10,000円を獲得しましょう",
+      "description1": "あなたの提供者がビジネスを成長させる手助けをしながら、彼らをケースディープに有料ユーザーとして招待し、あなたと提供者の両方が素晴らしい報酬を得ることができます！",
+      "description2": "プラットフォーム経由で獲得した新規クライアントを除き、提供者が引き入れた既存のクライアントとのプロジェクトには手数料はかかりません。ケースディープは提供者のオフラインでの信頼を築く手助けをし、クライアント基盤を拡大するための最適なプラットフォームです。",
+      "buttonText": "今すぐ招待"
+    },
+  "feature": {
+      "title": "特徴",
+      "node1": {
+        "title": "基本提供者",
+        "percentage": "0%",
+        "description": "完全無料"
+      },
+      "node2": {
+        "title": "専門提供者",
+        "line1": "専門的な",
+        "line2": "確認"
+      },
+      "node3": {
+        "title": "プライベートクライアント",
+        "percentage": "0%",
+        "description": "完全無料"
+      },
+      "node4": {
+        "title": "プラットフォームクライアント",
+        "startingAt": "16.5%から",
+        "min": "最低",
+        "percentage": "6.5%",
+        "forRepeats": "リピート取引で"
+      },
+      "card1": {
+        "title": "カスタマイズ可能な要件テンプレート",
+        "text": "プロジェクトの要件収集プロセスを簡素化するカスタマイズ可能な注文テンプレートを作成・管理します。サービス提供者はこれらのテンプレートを簡単に共有し、業務コミュニケーションを向上させ、エラーや混乱を最小限に抑えます。"
+      },
+      "card2": {
+        "title": "信用評価システム",
+        "text": "ケースディープの信用評価ツールを活用して、各取引を評価資産に変え、より多くのビジネス機会やクライアントを引き寄せます。"
+      },
+      "card3": {
+        "title": "柔軟な手数料構造",
+        "text": "プラットフォーム手数料は36.5%から始まり、取引履歴に基づき徐々に最低6.5%まで減少します。この柔軟な手数料構造により、サービス提供者は迅速にクライアント基盤を構築し、競争力を維持できます。"
+      },
+      "card4": {
+        "title": "ケース認証",
+        "text": "ケース認証でプロフェッショナルなプロフィールを向上させます。認証プロセスには厳密なスキル評価が含まれ、市場での競争力を高める手助けをします。"
+      },
+      "card5": {
+        "title": "プレミアムアップグレード",
+        "text": "プレミアムユーザーとして、プロフェッショナルな契約生成ツール、無制限の注文テンプレート、より効率的なコミュニケーションシステムにアクセスできます。プレミアムユーザーは、より安全な音声通話機能や、ビジネスの繁忙期や閑散期に応じた手数料設定機能も利用でき、注文獲得の迅速化とクライアント基盤の拡大を実現します。"
+      }
+    },
+    "attributes": {
+      "description": "案件を受けるコストはコミュニケーションです。プロジェクトのコミュニケーションは、全体の時間の3分の1、場合によってはそれ以上を消費することがあります。サービス提供者は、理解度が異なるクライアントに対して何度も専門性を説明し、新しいクライアントに自己紹介を行い、クライアント自身もよくわからないニーズを引き出さなければなりません。たとえ要求が明確でも、効果的な契約を締結するのに苦労することがあります。また、サービス提供者とクライアントの間には信頼とバランスが欠けています。",
+      "usingImageAlt": "Using illustration"
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "arrowAlt": "Arrow pointing to title",
+      "section1": {
+        "title": "簡単なコミュニケーション",
+        "description": "標準化された要件テンプレートを使用して、クライアントとのコミュニケーションを簡素化します。サービス提供者は、自分のビジネスニーズに基づいてカスタム注文テンプレートを作成し、クライアントと共有することで、クライアントが簡単に注文できるようにします。これにより、コミュニケーションの効率が向上し、誤解や不必要な議論が減少します。",
+        "imageAlt": "Patient attorney illustration"
+      },
+      "section2": {
+        "title": "信用システム",
+        "description": "信頼性の高いクレジット評価システムを利用して、プロフェッショナルな評価を築きます。オンラインまたはオフラインのクライアントからの成功した取引は、すべて評判の資産となり、新たなビジネス機会に変わります。",
+        "imageAlt": "Engineer illustration"
+      },
+      "section3": {
+        "title": "柔軟な入札",
+        "description": "ビジネスの期待や地域の特性に応じてターゲットを絞った入札を行います。プラットフォーム手数料は16.5%から始まり、同じクライアントとの取引履歴に基づき最低6.5%まで減少します。この柔軟なポリシーにより、迅速に注文を獲得し、安定したクライアント基盤を構築できます。",
+        "imageAlt": "Shooting illustration"
+      },
+      "section4": {
+        "title": "ケース認証",
+        "description": "ケース認証でプロフェッショナルなイメージを向上させます。各サービス提供者のスキルを厳密に評価し、業界の高い基準を満たしていることを確認します。ケース認証を受けたサービス提供者のみがプラットフォームの入札やランキングに参加でき、高品質なサービスの提供が保証されます。",
+        "imageAlt": "Data analyst illustration"
+      }
+    },
+    "pricing": {
+      "title": "料金",
+      "arrowAlt": "Arrow pointing to title",
+      "signUpButton": "無料で登録",
+      "annually": "年払い",
+      "plan1": {
+        "title": "無料",
+        "price": "¥0円/月額",
+        "attribute1": "オフライン案件取引サポート",
+        "attribute2": "QRコードまたはリンクで簡単に注文できる",
+        "attribute3": "4つの注文テンプレート",
+        "attribute4": "4つの成功事例"
+      },
+      "plan2": {
+        "title": "個人",
+        "price": "¥1,500円/月額",
+        "attribute1": {
+          "text": "オフライン案件取引サポート",
+          "description": "既存の顧客のオンライン取引手数料を免除します。"
+        },
+        "attribute2": {
+          "text": "QRコードまたはリンクで簡単に注文できる",
+          "description": "取引を迅速に促進"
+        },
+        "attribute3": {
+          "text": "無制限の注文テンプレート",
+          "description": "ビジネスを豊かにするためのさらに多くの注文テンプレート"
+        },
+        "attribute4": {
+          "text": "無制限の成功事例",
+          "description": "成功事例をより多く展示して信頼性を高める"
+        },
+        "attribute5": {
+          "text": "専門的な契約生成サポート",
+          "description": "安全な取引のために法的な妥当性を向上させる"
+        },
+        "attribute6": {
+          "text": "ライブチャット内の音声通話サポート",
+          "description": "取引の機会を大幅に向上させる"
+        },
+        "attribute7": {
+          "text": "自動再生の紹介ビデオサポート",
+          "description": "関係を強化し、取引を成立させる"
+        }
+      },
+      "plan3": {
+        "title": "法人",
+        "price": "¥4,500円/月額",
+        "attribute1": {
+          "text": "オフライン案件取引サポート",
+          "description": "既存の顧客のオンライン取引手数料を免除します。"
+        },
+        "attribute2": {
+          "text": "QRコードまたはリンクで簡単に注文できる",
+          "description": "取引を迅速に促進"
+        },
+        "attribute3": {
+          "text": "無制限の注文テンプレート",
+          "description": "ビジネスを豊かにするためのさらに多くの注文テンプレート"
+        },
+        "attribute4": {
+          "text": "無制限の成功事例",
+          "description": "成功事例をより多く展示して信頼性を高める"
+        },
+        "attribute5": {
+          "text": "専門的な契約生成サポート",
+          "description": "安全な取引のために法的な妥当性を向上させる"
+        },
+        "attribute6": {
+          "text": "ライブチャット内の音声通話サポート",
+          "description": "取引の機会を大幅に向上させる"
+        },
+        "attribute7": {
+          "text": "自動再生の紹介ビデオサポート",
+          "description": "関係を強化し、取引を成立させる"
+        }
+      }
+    },
+    "certification": {
+      "arrowAlt": "Arrow pointing to title",
+      "title": "認証",
+      "logoAlt": "Certificate logo",
+      "logoDescription": "CASE認証を取得すると、CASE公式認定ロゴがあなたのページに表示され、名刺に印刷したり、ウェブサイトに表示したりすることができる。",
+      "welcome": "ケース認証の申請を歓迎します",
+      "certification": "ケース認証",
+      "requirement1": "個人ユーザーは27歳以上/法人ユーザーは設立2年以上**",
+      "requirement2": "業界での4年以上の勤務経験の証明「招待者は免除」",
+      "requirement3": "2件以上の成功の取引証明「招待者は免除」",
+      "requirement4": "業界の専門技術面接に合格すること「招待者は免除」",
+      "requirement5": "業界に応じて¥400,000〜¥1,500,000の保証金を支払う「招待者は免除」",
+      "requirement6": "または一括認証料金を支払う：個人¥40,000/法人¥150,000「招待者は免除」",
+      "eligible": "おめでとうございます！申請資格を満たしました",
+      "applyButton": "今すぐ申請",
+      "photoAlt": "Certification photo",
+      "reviewTitle": "私たちはすべての認証申請を真剣に審査し、",
+      "reviewSubtitle": "クライアントに最適なサービス提供者を賢くマッチングします。",
+      "approvalTime": "審査には通常25営業日かかります",
+      "additionalTime": "追加資料請求の場合、郵送時間は含まれていません"
+    },
+    "growWithUs": {
+      "title1": "今日は私たちと",
+      "title2": "一緒に成長しましょう",
+      "description1": "現在、以下の業界のみ",
+      "description2": "認証サービスをサポートしている",
+      "membersAlt": "Certification Members",
+      "industry": "対応業界"
+    },
+    "footer": {
+      "links": {
+        "about": "ケースディープ概要",
+        "contact": "お問合せ",
+        "disclaimer": "免責事項",
+        "terms": "利用規約",
+        "privacyPolicy": "プライバシーポリシー"
+      },
+      "copyright": "© 2025 ケースディープ All Rights Reserved."
+    },
+    "feedback": {
+      "logoAlt": "CaseDeep Logo",
+      "type": {
+        "improvement": "改善の提案",
+        "bug": "プログラムの不具合"
+      },
+      "placeholder": {
+        "improvement": "改善提案を記入してください...",
+        "bug": "遭遇したバグを説明してください..."
+      },
+      "attachButton": "添付",
+      "submitButton": "送信",
+      "successImageAlt": "Success Checkmark",
+      "successTitle": "ご意見ありがとうございます！",
+      "successMessage": "お客様のご提案を丁寧に検討し、実行してまいります。今後とも改善に努め、ご意見をお待ちしております。",
+      "okButton": "OK"
+    },
+ "honors": {
+      "profileAlt": "Profile picture",
+      "companyName": "America Wisdom World Corporation Corporation",
+      "jobTitle": "Architectural Designer",
+      "flagAlt": "Country flag",
+      "location": "Test Testtest..",
+      "medalsTab": "メダル ({{count}})",
+      "trophiesTab": "トロフィー ({{count}})",
+     "awardsSummary": "現時までに {{medals}}  メダル   と {{trophies}}  トロフィー",
+      "medalAlt": "Medal icon",
+      "trophyAlt": "Trophy icon",
+      "medals": {
+        "projectName": "プロジェクト名",
+        "organization": "America Wisdom World Corporation Corporation"
+      },
+      "trophies": {
+        "projectName": "プロジェクト名",
+        "organization": "America Wisdom World Corporation Corporation"
+      }
+    },
+ "referralSystem": {
+      "groupImageAlt": "Group of people",
+      "heroTitle1": "友達を招待して",
+      "heroTitle2": "¥18,000/¥54,000の報酬を獲得しよう",
+      "inviteIconAlt": "Invite icon",
+      "shareLinkText": "招待リンクを共有してください",
+      "theyWillReceive": "彼らは次のものを受け取り",
+      "youWillEarn": "あなたは得るでしょう",
+      "personalUsers": "個人ユーザー",
+      "businessUsers": "法人ユーザー",
+      "personalValue": "¥18,000",
+      "businessValue": "¥54,000",
+      "valueVoucher": "相当の1年間無料使用クーポン",
+      "personalReward": "¥4,000",
+      "businessReward": "¥15,000",
+      "perPerson": "1人あたり",
+      "perCompany": "1社あたり",
+      "friendsInvited": "{{count}} 人の友達を招待しました",
+      "upgradedUsers": "アップグレードユーザー: {{personal}} 個人ユーザー, {{business}} 法人ユーザー",
+      "searchPlaceholder": "ユーザー名または表示名を検索"
+    },
+    "manageAccount": {
+      "logoAlt": "CASEDEEP Logo",
+      "title": "アカウント管理",
+      "emailPlaceholder": "メールを入力してください",
+      "passwordPlaceholder": "••••••••",
+      "usernamePlaceholder": "ユーザー名を入力してください",
+      "changeButton": "変更",
+      "confirmButton": "確認"
+    },
+  "paymentAccount": {
+    "logoAlt": "CASEDEEP Logo",
+    "paymentMethods": "支払い方法",
+    "creditDebitCards": "クレジットカードとデビットカード",
+    "receivingAccount": "受取口座",
+    "beneficiaryName": "受取人名",
+    "bankName": "銀行名",
+    "bankAddress": "銀行住所",
+    "accountNumber": "口座番号",
+    "routingNumber": "支店コード",
+    "branchName": "支店名 - 任意",
+    "accountType": "口座種類 - 任意",
+    "cardNumber": "カード番号",
+    "nameOnCard": "カード名義人",
+    "expiryDate": "MM / YY",
+    "cvc": "CVC",
+    "billingInfo": "請求情報",
+    "nameCompany": "名前/会社名",
+    "address": "住所",
+    "save": "保存"
+  },
+"proposal": {
+    "profileAlt": "Profile picture",
+    "readMore": "もっと見る...",
+    "attachReferences": "参考添付",
+    "area": "Area",
+    "decoratingStyle": "Decorating Style",
+    "constructionProject": "Construction Project",
+    "projectScale": "プロジェクトの規模",
+    "paymentMethod": "支払方法",
+    "deliveryDate": "予定納期",
+    "sendQuote": "注文送信",
+    "acceptOrder": "注文を受け入れる"
+  },
+  "qrcode": {
+    "logoAlt": "CASEDEEP Logo",
+    "white": "白色",
+    "black": "黒色",
+    "download": "ダウンロード",
+    "share": "シェアする...",
+    "shareTo": "シェアする",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "line": "Line"
+    }
+  },
+  "quote": {
+    "profileAlt": "Profile picture",
+    "title": "Interior Design",
+    "date": "Jan 12, 2025",
+    "item": "項目",
+    "unitPrice": "単価",
+    "quantity": "数量",
+    "total": "合計",
+    "addArticle": "条項",
+    "itemName": "項目名",
+    "add": "追加",
+    "subtotal": "小計",
+    "currency": "通貨",
+    "attachment": "添付",
+    "uploadPDF": "PDFをアップロードできます",
+    "chooseFile": "ファイルを選択",
+    "sendQuote": "見積もりを送信",
+    "placeOrder": "注文する"
+  },
+  "rating": {
+    "profileAlt": "Profile picture",
+    "companyName": "America Wisdom World Corporation Corporation",
+    "jobTitle": "Architectural Designer",
+    "flagAlt": "Country flag",
+    "location": "New York",
+    "systemScore": "システムスコア",
+    "userRating": "ユーザーレーティング",
+    "contributionScore": "貢献スコア"
+  },
+  "signature": {
+    "logoAlt": "CASEDEEP Logo",
+    "instruction": "この署名で契約に署名します",
+    "uploadButton": "「PNG」ギャラリーから署名を選択",
+    "cropInstruction": "署名が抽出範囲内に完全に収まるようにしてください",
+    "extractButton": "署名を抽出"
+  },
+  "signup": {
+    "logoAlt": "CASEDEEP Logo",
+    "title": "登録",
+    "usernamePlaceholder": "ユーザー名を入力してください",
+    "usernameLabel": "ユーザー名",
+    "emailPlaceholder": "メールを入力してください",
+    "emailLabel": "メール「Email」",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "passwordLabel": "パスポート",
+    "signupButton": "登録",
+    "termsText": "登録することにより、免責事項、利用規約、プライバシーポリシー、およびクッキーの使用に同意するものとします"
   }
+
+
+}
 }
