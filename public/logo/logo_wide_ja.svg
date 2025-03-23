@@ -1,0 +1,15 @@
+<svg width="340" height="100" viewBox="0 0 340 100" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h340v100H0z"/>
+        <text font-family="PingFangTC-Medium, PingFang TC" font-size="36" font-weight="400" letter-spacing="8" transform="translate(34 12)">
+                        <tspan x="0" y="38" fill="#00C8C8">ケー</tspan>
+                        <tspan x="88" y="38" letter-spacing="10" fill="#00C8C8">ス</tspan>
+                        <tspan x="134" y="38" letter-spacing="-2" fill="#FF9527">ディー</tspan>
+                        <tspan x="236" y="38" fill="#FF9527">プ</tspan>
+                    </text>
+        <text font-family="ZenKurenaido-Regular, Zen Kurenaido" font-size="10" letter-spacing="16" fill="#EEE" transform="translate(34 12)">
+                        <tspan x="1" y="64">サクサク案件を受けよ</tspan>
+                        <tspan x="261" y="64">う</tspan>
+                    </text>
+    </g>
+</svg>

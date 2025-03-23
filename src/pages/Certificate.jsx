@@ -1,33 +1,31 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import CommissionRateGraph from '../components/CommissionRateGraph';
 import TermsAndConditions from '../components/TermsAndConditions';
 import certificateLogo from '../assets/certificate.svg';
 import CaseDeepLogo from '../assets/casedeep-logo.svg';
 import submittedImg from '../assets/submitedimg.svg'
-import congratsImg from '../assets/congratsimg.svg'
+import congratsImg from '../assets/congratsimg.svg';
 
 import {
-  useCreateCertificationMutation,
-  useUploadIdentityMutation,
-  useUploadDealMutation,
-  useSubmitCertificationMutation,
-  useSignCertificationMutation,
-  useProcessCertificationPaymentMutation,
-  useSetCommissionRateMutation,
-  useGetCertificationQuery
-} from '../store/services/certificationApi';
+  createCertification,
+  uploadIdentity,
+  uploadDeal,
+  submitCertification,
+  signCertification,
+  processCertificationPayment,
+  setCommissionRate,
+  getCertification
+} from '../services/certificateService';
+
 
 function Certificate() {
-  // RTK Mutations
-  const [createCertification] = useCreateCertificationMutation();
-  const [uploadIdentity] = useUploadIdentityMutation();
-  const [uploadDeal] = useUploadDealMutation();
-  const [submitCertification] = useSubmitCertificationMutation();
-  const [signCertification] = useSignCertificationMutation();
-  const [processCertificationPayment] = useProcessCertificationPaymentMutation();
-  const [setCommissionRate] = useSetCommissionRateMutation();
+ 
 
+  
+  // Add loading state
+  const [isLoading, setIsLoading] = useState(false);
+  
   // Combined states
   const [currentStep, setCurrentStep] = useState(1);
   const [identityDocs, setIdentityDocs] = useState([]);
@@ -37,6 +35,28 @@ function Certificate() {
   const [userName, setUserName] = useState('');
   const [inviteCode, setInviteCode] = useState('');
   const [certificationId, setCertificationId] = useState(null);
+  
+  // Remove RTK derived loading state
+  // const isLoading = isCreating || isUploadingIdentity || isUploadingDeal || isSubmitting || isSigning || isProcessingPayment || isSettingRate;
+
+  // Create certification function
+  const initializeCertification = async () => {
+    try {
+      setIsLoading(true);
+      // Call the API to create a new certification
+      const result = await createCertification({});
+      console.log('Certification created:', result);
+      // Store the certification ID for future API calls
+      setCertificationId(result.cenobase62);
+      return result.cenobase62;
+    } catch (error) {
+      console.error('Error creating certification:', error);
+      alert('Failed to create certification. Please try again.');
+      return null;
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   // File handling functions
   const handleFileUpload = async (fileList, setFiles, maxFiles = 20, isIdentity = true) => {
@@ -53,21 +73,31 @@ function Certificate() {
       file: file
     }));
 
-    // Upload files to server
     try {
+      setIsLoading(true);
+      
+      // Create certification first if it doesn't exist
+      let certId = certificationId;
+      if (!certId) {
+        certId = await initializeCertification();
+        if (!certId) return; // Exit if certification creation failed
+      }
+
       const formData = new FormData();
       newFiles.forEach(file => formData.append('files', file.file));
 
       if (isIdentity) {
-        await uploadIdentity({ cenobase62: certificationId, formData });
+        await uploadIdentity(certId, formData);
       } else {
-        await uploadDeal({ cenobase62: certificationId, formData });
+        await uploadDeal(certId, formData);
       }
 
       setFiles(prev => [...prev, ...newFiles]);
     } catch (error) {
       console.error('Error uploading files:', error);
       alert('Failed to upload files. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -89,64 +119,115 @@ function Certificate() {
   const handleSubmit = async () => {
     if (canSubmit) {
       try {
-        // Create certification first
-        const result = await createCertification().unwrap();
-        setCertificationId(result.cenobase62);
+        setIsLoading(true);
+        
+        // Use existing certification ID or create a new one
+        let certId = certificationId;
+        if (!certId) {
+          certId = await initializeCertification();
+          if (!certId) return; // Exit if certification creation failed
+        }
 
         // Submit the certification
-        await submitCertification(result.cenobase62);
-
+        await submitCertification(certId);
         setCurrentStep(2);
       } catch (error) {
         console.error('Error submitting certification:', error);
         alert('Failed to submit certification. Please try again.');
+      } finally {
+        setIsLoading(false);
       }
     }
   };
 
+  // Update handlePayment to use certificateService
   const handlePayment = async () => {
-    if (!certificationId) return;
-
     try {
-      await processCertificationPayment({
-        cenobase62: certificationId,
-        amount: 250 // or 1000 for business users
-      });
+      setIsLoading(true);
+      
+      // Use existing certification ID or create a new one
+      let certId = certificationId;
+      if (!certId) {
+        certId = await initializeCertification();
+        if (!certId) return; // Exit if certification creation failed
+      }
+      
+      await processCertificationPayment(certId, 250); // or 1000 for business users
       setCurrentStep(4);
     } catch (error) {
       console.error('Error processing payment:', error);
       alert('Payment failed. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
+  // Update handleSignTerms to use certificateService
   const handleSignTerms = async () => {
-    if (!certificationId || !userName) return;
-
+    if (!userName) {
+      alert('Please enter your name to sign the terms');
+      return;
+    }
+    
     try {
-      await signCertification({
-        cenobase62: certificationId,
-        signname: userName
-      });
+      setIsLoading(true);
+      
+      // Use existing certification ID or create a new one
+      let certId = certificationId;
+      if (!certId) {
+        certId = await initializeCertification();
+        if (!certId) return; // Exit if certification creation failed
+      }
+      
+      await signCertification(certId, userName);
       setCurrentStep(5);
     } catch (error) {
       console.error('Error signing terms:', error);
       alert('Failed to sign terms. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
+  // Update handleCommissionRateChange to use certificateService
   const handleCommissionRateChange = async (rate) => {
-    if (!certificationId) return;
-
     try {
-      await setCommissionRate({
-        cenobase62: certificationId,
-        rate: rate
-      });
+      setIsLoading(true);
+      
+      // Use existing certification ID or create a new one
+      let certId = certificationId;
+      if (!certId) {
+        certId = await initializeCertification();
+        if (!certId) return; // Exit if certification creation failed
+      }
+      
+      await setCommissionRate(certId, rate);
     } catch (error) {
       console.error('Error updating commission rate:', error);
       alert('Failed to update commission rate. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
+  
+  // Replace RTK Query with useEffect for certification data
+  useEffect(() => {
+    const fetchCertification = async () => {
+      if (certificationId) {
+        try {
+          setIsLoading(true);
+          const data = await getCertification(certificationId);
+          // Handle certification data if needed
+        } catch (error) {
+          console.error('Error fetching certification:', error);
+        } finally {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    fetchCertification();
+  }, [certificationId]);
 
   return (
     <div className="min-h-screen text-white"

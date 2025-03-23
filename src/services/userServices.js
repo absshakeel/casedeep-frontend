@@ -1,8 +1,11 @@
 import axios from "axios";
 
+const apiUrl = process.env.REACT_APP_API_BASE_URL  || 'http://casedeep.com:8080/';
+
 const axiosInstance = axios.create({
-  baseURL: "http://casedeep.com:8080/",
+  baseURL: apiUrl,
   timeout: 10000, // Request timeout (10 seconds)
+  withCredentials: true, // Enable sending cookies in cross-origin requests
 });
 
 // List of public routes that don't require authentication

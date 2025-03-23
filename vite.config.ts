@@ -8,6 +8,19 @@ export default defineConfig({
   },
   server: {
     port: 5173,
-    host: true
+    host: true,
+    proxy: {
+      '/api': {
+        target: 'http://casedeep.com:8080',
+        changeOrigin: true,
+        secure: false,
+      },
+      '/ws': {
+        target: 'http://casedeep.com:8080',
+        changeOrigin: true,
+        secure: false,
+        ws: true,
+      }
+    }
   }
 })

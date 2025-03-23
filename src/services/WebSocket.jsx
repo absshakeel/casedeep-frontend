@@ -7,7 +7,9 @@ const useWebSocket = (url, uId, receipientId) => {
 const stompClientRef = useRef(null);
 
 useEffect(() => {
-const socket = new SockJS(`http://casedeep.com:8080/ws`);
+const apiUrl = process.env.REACT_APP_API_BASE_URL || 'http://casedeep.com:8080/';
+const wsUrl = apiUrl.replace(/\/$/, '') + '/ws';
+const socket = new SockJS(wsUrl);
 const stompClient = Stomp.over(socket);
 
 stompClient.connect(

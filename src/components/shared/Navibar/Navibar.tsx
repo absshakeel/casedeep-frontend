@@ -42,8 +42,8 @@ const Navibar: React.FC = () => {
     switch (i18n.language) {
       case 'ja':
         return '/logo/logo_wide_ja.svg';
-      case 'cn':
-        return '/logo/logo_wide_cn.svg';
+      case 'zh':
+        return '/logo/logo_wide_zh.svg';
       default:
         return '/logo/logo_wide_en.svg';
     }
@@ -52,9 +52,9 @@ const Navibar: React.FC = () => {
   const smallLogoSrc = useMemo(() => {
     switch (i18n.language) {
       case 'ja':
-        return '/logo/logo_wide_small_ja.svg';
-      case 'cn':
-        return '/logo/logo_wide_small_cn.svg';
+        return '/logo/logo_wide_ja.svg';
+      case 'zh':
+        return '/logo/logo_wide_zh.svg';
       default:
         return '/logo/logo_wide_small_en.svg';
     }
